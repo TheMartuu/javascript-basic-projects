@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="device=device-width,initial-scale=1.0">
+<link rel="stylesheet" href="styles.css" type="text/css">
+<script defer src="script.js"></script>
+<head>
+    <title>Restricted text area</title>
+</head>
+<body>
+    <h2>Restricted text area</h2>
+    <div id="area-container" >
+        <textarea type="text" id="text-area" maxlength="250" rows="5" col="50" placeholder="Insert text here..."></textarea>
+        <span id="char-count">0 / 250</span>        
+    </div>
+    <div class="buttons">
+        <button id="submit">Submit!</button>
+        <button id="delete">Delete</button>
+    </div>
+</body>
+
+</html>
